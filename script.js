@@ -2,10 +2,13 @@
 $(document).ready(function(){
 
 
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
+  $('.sim-thumb').on('click', function() {
+    $('#main-product-image').attr('src', $(this).data('image'));
+  })
 
+  $('.sim-thumb2').on('click', function() {
+    $('#main-product-image2').attr('src', $(this).data('image'));
+  })
 
   $('.mobilek').mouseover(function(){
        $('.mobileul').css('display','flex');

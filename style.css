@@ -15,6 +15,17 @@ a{
 a:hover{
 	color:black;
 }
+a span{
+	display:block;
+	width:5em;
+	text-align:right;
+	margin-left:-3.4em;
+	color:#FF6666;
+	
+}
+a span:hover{
+	color:black !important; 
+}
 
 .leftNav{
 	list-style-type:none;
@@ -179,10 +190,52 @@ p>img{
   margin:1% 2.5% 1% 2.5%;
   box-shadow:0.3em 0.3em 0.15em -0.1em rgb(143, 143, 143);
 }
+ main ul{
+	font-family:"Montserrat";
+	color: rgb(218, 218, 218);
+	list-style-type:none;
+	padding-left:2em;
+	line-height:3em;
+	font-size:0.9em;
+	
+}
 .mapa{
 margin-top:1.5em;
 }
 
+.product-image-gallery {
+	background-color: #263859;
+	padding: 1.5rem;
+    text-align:center;
+  }
+  
+  .pdp-product-image {
+	margin-bottom: 20px;
+	height:40vh;
+	
+  }
+
+  
+  .product-thumbs a {
+	margin-left: 8px;
+	margin-right: 8px;
+	padding: 0 !important;
+  }
+  
+  .product-thumbs a img {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	border: solid 4px #fefefe;
+	border-radius: 0;
+	box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+	line-height: 0;
+	border-radius: 3px;
+	width: 50px;
+	height: 50px;
+	border: none;
+  }
+  
 
 .i{
 width:100%;
@@ -278,6 +331,9 @@ padding-right: 1.1rem;
 	
    body{
 	   font-size:1.1em
+	  }
+	  .leftNav{
+		  font-size:1em;
 	  } 
 
 
