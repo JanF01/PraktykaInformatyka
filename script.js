@@ -2,6 +2,11 @@
 $(document).ready(function(){
 
 
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+
+
   $('.mobilek').mouseover(function(){
        $('.mobileul').css('display','flex');
 
@@ -22,3 +27,4 @@ function widen(t){
 function shrink(t){
 	$("#ab"+t).css("width","0em");
 }
+
