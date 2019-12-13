@@ -149,7 +149,7 @@ h1{
 
   font-family:"Montserrat";
   font-size:1.5em;
-  padding:2em 0em 0.3em 4em;
+  padding:2em 0em 0.3em 0.9em;
   /* background:linear-gradient(to right,rgb(119, 188, 253),rgb(255, 255, 255)); */
   color:rgb(218, 218, 218);
 
@@ -160,7 +160,7 @@ h3{
 	font-family:"Montserrat";
 	font-size:0.8em;
 	font-weight:bold;
-	padding:0.2em 0 0.7em 7.5em;
+	padding:0.2em 0 0.7em 1.8em;
 	color:rgb(218, 218, 218);
 	margin-top:-1em;
 }
@@ -172,6 +172,7 @@ p{
   text-align:justify;
   font-size:0.95em;
   color:rgb(218, 218, 218);
+ 
 }
 p>img{
   width:50%;
